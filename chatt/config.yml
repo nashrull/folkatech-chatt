@@ -1,0 +1,15 @@
+config:
+- mysqlHost: tcp(127.0.0.1:3306)
+  mysqlUser: root
+  mysqlPwd: 
+  mysqlDb: chatt
+  ipAddress: ::1
+  sessionName: sessionName
+  sessionKey: sessionKey
+  portHost: 8080
+  env: dev
+
+  jwtName: jwt_bandros_admin
+  jwtKey: jwt_bandros_admin_key
+  jwtKeyApi: bandrostokenkey
+  idUserAuth : nik
